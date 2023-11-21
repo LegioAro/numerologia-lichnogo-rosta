@@ -1,0 +1,125 @@
+.who {
+  margin-bottom: 272px;
+  &__wrapper {
+    width: 100%;
+    max-width: 1004px;
+    margin: 0 auto;
+  }
+
+  &__items {
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(even) {
+      direction: rtl;
+      text-align: left;
+
+      .who__item-content {
+        margin-right: 0;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  &__item-content {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 384px;
+  }
+
+  &__item-title {
+    margin-bottom: 22px;
+  }
+
+  &__item-list {
+  }
+
+  &__item-list-elem {
+    font-size: 16px;
+    padding-left: 42px;
+    line-height: 125%; /* 20px */
+    position: relative;
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 13px;
+      height: 13px;
+      left: 0;
+      top: 2px;
+      border-radius: 50%;
+      border-radius: 100px;
+      background-image: linear-gradient(91deg, #e2ba78 0.8%, #f2d7ac 48.83%, #e0b875 99.58%);
+      box-shadow: 1px 1px 0px 0px #8a6525, 0px 0px 10px 0px #fff inset,
+        0px 10px 40px 0px rgba(239, 210, 165, 0.87);
+    }
+  }
+
+  &__item-img {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    mix-blend-mode: lighten;
+  }
+}
+
+@media (max-width: 1150px) {
+  .who {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .who {
+    margin-bottom: 80px;
+
+    &__item {
+      flex-direction: column-reverse;
+      margin-bottom: 50px;
+
+      &:nth-child(even) {
+        .who__item-content {
+          margin-left: 0px;
+        }
+      }
+    }
+
+    &__item-list-elem {
+      padding-left: 30px;
+    }
+
+    &__item-img {
+      max-width: 400px;
+    }
+
+    &__item-content {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .who {
+    &__item {
+      flex-direction: column-reverse;
+      margin-bottom: 50px;
+    }
+
+    &__item-img {
+      max-width: 400px;
+    }
+  }
+}

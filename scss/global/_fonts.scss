@@ -1,0 +1,27 @@
+//font-family: 'Roboto Condensed', sans-serif;
+//font-family: 'ElMessiri', sans-serif;
+
+@font-face {
+  font-family: 'ElMessiri';
+  src: url('../fonts/elmessiri-semibold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/elmessiri-semibold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/elmessiri-semibold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/elmessiri-semibold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/elmessiri-semibold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/elmessiri-semibold.svg#elmessiri-semibold')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'ElMessiri';
+  src: url('../fonts/elmessiri-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/elmessiri-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/elmessiri-bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/elmessiri-bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/elmessiri-bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/elmessiri-bold.svg#elmessiri-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+  font-weight: 700;
+}

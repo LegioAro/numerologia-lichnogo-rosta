@@ -1,0 +1,136 @@
+.bonus {
+  margin-bottom: 46px;
+  &__wrapper {
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__imgs {
+    position: relative;
+  }
+
+  &__img-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 504px;
+    display: flex;
+    transform: translateX(-50%) translateY(-50%);
+    pointer-events: none;
+  }
+
+  &__img {
+    display: flex;
+    margin-bottom: 47px;
+    width: 100%;
+    max-width: 190px;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: var(--font-text-2);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 125%; /* 50px */
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 460px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 125%; /* 20px */
+    margin-bottom: 31px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(#e2ba78, 0.2);
+    background-color: rgba(18, 16, 24, 0.8);
+    margin-bottom: 30px;
+  }
+
+  &__info-title {
+    text-align: right;
+    font-size: 25px;
+    line-height: 125%; /* 31.25px */
+    max-width: 260px;
+    width: 100%;
+    margin-right: 34px;
+  }
+
+  &__info-content {
+    max-width: 100%;
+    p {
+      font-size: 16px;
+      line-height: 125%; /* 20px */
+    }
+  }
+
+  &__subtext {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 125%; /* 17.5px */
+    margin-bottom: 11px;
+  }
+
+  &__btn {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .bonus {
+    &__img {
+      max-width: 150px;
+    }
+    &__img-bg {
+      max-width: 350px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__info-title {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .bonus {
+    &__info {
+      flex-direction: column;
+    }
+    &__info-title {
+      text-align: center;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .bonus {
+    &__img {
+      max-width: 100px;
+    }
+    &__img-bg {
+      max-width: 250px;
+    }
+    &__title {
+      font-size: 24px;
+    }
+  }
+}

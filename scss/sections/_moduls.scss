@@ -1,0 +1,256 @@
+.moduls {
+  margin-bottom: 223px;
+  &__wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &__title {
+    font-family: var(--font-text-2);
+    font-size: 75.054px;
+    font-weight: 700;
+    line-height: 90%; /* 67.548px */
+    letter-spacing: -3.753px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform-origin: center;
+    transform: rotate(180deg);
+    text-align: right;
+    margin-right: 111px;
+  }
+
+  &__items {
+    width: 100%;
+  }
+
+  &__item {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(#fff, 0.2);
+    width: 100%;
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.active {
+      .moduls__item-body {
+        display: block;
+      }
+      .moduls__item-header-btn {
+        &::before {
+          transform: translateY(-50%) rotate(0deg);
+        }
+        &::after {
+          transform: translateY(-50%) rotate(-180deg);
+        }
+      }
+    }
+  }
+
+  &__item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__item-header-content {
+    margin-right: 40px;
+  }
+
+  &__item-header-suptitle {
+    font-size: 20px;
+    line-height: 125%; /* 25px */
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__item-header-title {
+    font-family: var(--font-text-2);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90%; /* 27px */
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+  }
+
+  &__item-header-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-grow: 0;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      top: 50%;
+      background-image: linear-gradient(100deg, #efd193 0%, #fcf7e2 54.17%, #fbe1b1 99.48%);
+      transform-origin: center;
+      transition: 0.3s;
+    }
+
+    &::before {
+      transform: translateY(-50%) rotate(90deg);
+    }
+    &::after {
+      transform: translateY(-50%);
+    }
+  }
+
+  &__item-body {
+    padding-top: 10px;
+    display: none;
+  }
+
+  &__item-body-text {
+    margin-bottom: 40px;
+    p {
+      font-size: 16px;
+      line-height: 125%; /* 20px */
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__item-lessons {
+    margin-bottom: 40px;
+  }
+
+  &__item-lesson {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-lesson-title {
+    margin-bottom: 9px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 125%; /* 25px */
+  }
+
+  &__item-lesson-content {
+    display: flex;
+    justify-content: space-between;
+
+    p,
+    li {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 125%; /* 17.5px */
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 26px;
+    }
+  }
+
+  &__item-lesson-desc {
+    margin-right: 30px;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  &__item-lesson-info {
+    width: 100%;
+    max-width: 234px;
+  }
+
+  &__item-result {
+  }
+
+  &__item-result-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 125%; /* 25px */
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }
+
+  &__item-result-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item-result-list {
+    margin-right: 30px;
+    padding-left: 26px;
+    font-size: 16px;
+    line-height: 125%; /* 20px */
+    list-style: disc;
+    width: 100%;
+    max-width: 330px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .moduls {
+    margin-bottom: 100px;
+    &__title {
+      margin-right: 30px;
+      font-size: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .moduls {
+    margin-bottom: 80px;
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__title {
+      margin-right: 0px;
+      font-size: 40px;
+      writing-mode: horizontal-tb;
+      transform: rotate(0deg);
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__item-lesson-content,
+    &__item-result-content {
+      flex-direction: column;
+    }
+    &__item-lesson-desc {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+    &__item-lesson-info {
+      max-width: 100%;
+    }
+    &__item-result-list {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .moduls {
+    &__item-header-suptitle {
+      font-size: 18px;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+    &__item-header-title {
+      font-size: 24px;
+      line-height: 120%;
+    }
+  }
+}

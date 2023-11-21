@@ -1,0 +1,141 @@
+.video {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 243px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 40px;
+  }
+
+  &__title {
+    margin-bottom: 46px;
+    font-family: var(--font-text-2);
+    font-size: 61.656px;
+    font-weight: 700;
+    line-height: 90%; /* 55.491px */
+    letter-spacing: -3.083px;
+    text-transform: uppercase;
+  }
+
+  &__mob {
+  }
+
+  &__btn {
+    max-width: 282px;
+  }
+
+  &__video {
+    width: 100%;
+    max-width: 680px;
+    height: 390px;
+    display: flex;
+  }
+}
+
+@media (max-width: 1150px) {
+  .video {
+    &__content {
+      max-width: 330px;
+    }
+    &__title {
+      font-size: 50px;
+    }
+    &__video {
+      max-width: 580px;
+      height: 290px;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .video {
+    margin-bottom: 150px;
+    &__content {
+      max-width: 330px;
+    }
+
+    &__video {
+      max-width: 480px;
+      height: 250px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .video {
+    margin-bottom: 100px;
+    &__content {
+      max-width: 280px;
+    }
+    &__title {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    &__video {
+      max-width: 400px;
+      height: 200px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    margin-bottom: 80px;
+
+    &__content {
+      max-width: 100%;
+      margin-right: 0;
+    }
+    &__title {
+      text-align: center;
+      margin: 0 auto 30px;
+    }
+    &__mob {
+      margin-bottom: 30px;
+    }
+    &__video {
+      margin: 0 auto;
+      max-width: 600px;
+      height: 300px;
+    }
+    &__btn {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .video {
+    &__title {
+      font-size: 34px;
+    }
+    &__video {
+      max-width: 400px;
+      height: 220px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .video {
+    &__video {
+      max-width: 320px;
+      height: 180px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .video {
+    &__video {
+      height: 150px;
+    }
+  }
+}
