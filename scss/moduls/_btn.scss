@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: 28px 10px;
+  transition: 0.3s;
 
   color: #583f26;
   text-align: center;
@@ -23,5 +24,15 @@
   &--big {
     padding: 38px 10px;
     font-size: 20px;
+  }
+
+  &:hover {
+    box-shadow: 0px 4px 0px 0px #8a6525, 0px 0px 10px 0px #fff inset,
+      0px 10px 20px 0px rgba(239, 210, 165, 0.87);
+  }
+  &:active {
+    box-shadow: 0px 0px 0px 0px #8a6525, 0px 0px 10px 0px #fff inset,
+      0px 10px 20px 0px rgba(239, 210, 165, 0.87);
+    transform: translateY(4px);
   }
 }
