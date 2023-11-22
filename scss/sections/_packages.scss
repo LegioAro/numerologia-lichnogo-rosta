@@ -90,6 +90,11 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    &--disabled {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
   }
 
   &__item-info {
@@ -125,6 +130,7 @@
       font-size: 21.641px;
       line-height: 125%; /* 19.511px */
       margin-right: 7px;
+      text-decoration: line-through;
 
       text-decoration-line: strikethrough;
     }

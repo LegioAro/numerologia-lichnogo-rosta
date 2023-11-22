@@ -151,12 +151,24 @@
       font-size: 14px;
       font-weight: 300;
       line-height: 125%; /* 17.5px */
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     ul {
       list-style: disc;
       padding-left: 26px;
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
+  }
+
+  &__item-lesson-title {
+    font-size: 18px;
   }
 
   &__item-lesson-desc {
@@ -196,6 +208,13 @@
     max-width: 330px;
     &:last-child {
       margin-right: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -239,6 +258,10 @@
     &__item-result-list {
       margin-right: 0;
       max-width: 100%;
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
