@@ -1,6 +1,5 @@
 .video {
   position: relative;
-  z-index: 2;
   margin-bottom: 243px;
 
   &__decor {
@@ -51,6 +50,7 @@
     max-width: 680px;
     height: 390px;
     display: flex;
+    position: relative;
   }
 }
 
