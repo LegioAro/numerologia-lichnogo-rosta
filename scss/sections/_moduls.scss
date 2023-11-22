@@ -5,6 +5,8 @@
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    position: relative;
+    z-index: 1;
   }
 
   &__title {

@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./css/swiper.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Нумерология Личного Роста</title>
@@ -43,12 +44,13 @@
     </header>
 
     <section class="video">
+      <div class="video__decor"></div>
       <div class="container">
         <div class="video__wrapper">
           <div class="video__content">
             <div class="video__title --gradient">Посмотрите подробное видео о программе</div>
             <div class="video__mob"></div>
-            <button class="video__btn btn">Принять Участие</button>
+            <button class="video__btn btn" data-scroll-smooth="packages">Принять Участие</button>
           </div>
           <div class="video__video">
             <iframe
@@ -119,6 +121,7 @@
     </section>
 
     <section class="errors">
+      <div class="errors__decor"></div>
       <div class="container">
         <div class="errors__wrapper">
           <div class="errors__title title --gradient">
@@ -159,7 +162,61 @@
       </div>
     </section>
 
+    <section class="profit">
+      <div class="container">
+        <div class="profit__wrapper">
+          <div class="profit__title title --gradient">
+            Единожды <br />
+            разобравшись в нумерологии
+          </div>
+          <div class="profit__text">и освоив этот навык вы навсегда получите:</div>
+          <div class="profit__content">
+            <div class="profit__items">
+              <div class="profit__item profit__item--1">
+                <div class="profit__item-title">Инструкцию к себе</div>
+                <div class="profit__item-text">
+                  Поймете свои сильные стороны, таланты и возможности
+                </div>
+              </div>
+              <div class="profit__item profit__item--2">
+                <div class="profit__item-title">Навигатор по жизни</div>
+                <div class="profit__item-text">
+                  Сможете идти “лучшей дорогой” из большого множества предложенных вариантов жизнью
+                </div>
+              </div>
+              <div class="profit__item profit__item--3">
+                <div class="profit__item-title">Навык разбираться в людях</div>
+                <div class="profit__item-text">
+                  Все что применимо к себе сможете применить к любому другому человеку
+                </div>
+              </div>
+            </div>
+            <div class="profit__btn-wrapper">
+              <div class="profit__img"><img src="./img/profit/img.png" alt="" /></div>
+              <button class="profit__btn btn" data-scroll-smooth="packages">Принять Участие</button>
+            </div>
+            <div class="profit__items profit__items--left">
+              <div class="profit__item profit__item--4">
+                <div class="profit__item-title">Самореализацию</div>
+                <div class="profit__item-text">
+                  Поймете свои сильные стороны, таланты и возможности
+                </div>
+              </div>
+              <div class="profit__item profit__item--5">
+                <div class="profit__item-title">Неоспоримое преимущество в жизни и бизнесе</div>
+                <div class="profit__item-text">
+                  Человек, который владеет нумерологией однозначно выигрывает у того, кто “слепо”
+                  идет по этой жизни
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="skills">
+      <div class="skills__decor"></div>
       <div class="container">
         <div class="skills__wrapper">
           <div class="skills__title title --gradient">Нумерология Личного Роста</div>
@@ -209,7 +266,7 @@
               </div>
             </div>
           </div>
-          <button class="skills__btn btn">Принять Участие</button>
+          <button class="skills__btn btn" data-scroll-smooth="packages">Принять Участие</button>
         </div>
       </div>
     </section>
@@ -350,105 +407,106 @@
             <div class="moduls__item">
               <div class="moduls__item-header">
                 <div class="moduls__item-header-content">
-                  <div class="moduls__item-header-suptitle">Модуль 1</div>
-                  <div class="moduls__item-header-title --gradient">Взлом даты рождения</div>
+                  <div class="moduls__item-header-suptitle">Модуль 2</div>
+                  <div class="moduls__item-header-title --gradient">Навигатор Года</div>
                 </div>
                 <div class="moduls__item-header-btn"></div>
               </div>
               <div class="moduls__item-body">
                 <div class="moduls__item-body-text">
                   <p>
-                    В первом модуле, мы сфокусируемся на анализе первой цифры в вашей дате рождения.
-                    Это будет ваш ключ к пониманию собственных сильных сторон, талантов и
-                    возможностей. Мы разберем, как использовать это знание для успешной
-                    самореализации и принятия важных решений в бизнесе и в жизни.
+                    Второй модуль представляет вам уникальную “Дорожную карту успеха” по годам и
+                    месяцам.
                   </p>
                   <p>
-                    Этот модуль состоять из трех уроков, каждый из которых погружает вас в глубокий
-                    анализ вашего первого числа и его влияния на вашу жизнь.
+                    Вы узнаете, как расшифровать и использовать числовые ритмы в нумерологии для
+                    навигации в различных этапах жизни.
+                  </p>
+                  <p>
+                    Вы получаете инструмент для анализа и понимания того, как каждый год, месяц
+                    влияет на вас и какие задачи и возможности он приносит.
+                  </p>
+                  <p>
+                    Вы также узнаете, как использовать эту информацию для принятия более
+                    информированных решений и достижения успеха в разных сферах вашей жизни.
                   </p>
                 </div>
                 <div class="moduls__item-lessons">
                   <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 1</div>
+                    <div class="moduls__item-lesson-title">Урок 5</div>
                     <div class="moduls__item-lesson-content">
                       <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 1)</p>
+                        <p>Расшифровка твоего личного года на ритм</p>
                         <ul>
-                          <li>
-                            Детально разберем ресурс цифр: 1, 10, 19, 28, 2, 11, 20, 3, 12, 30
-                          </li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
-                          </li>
+                          <li>Что такое ритмы</li>
+                          <li>Как определять ритмы для любого человека</li>
+                          <li>Как применить полученную информацию в жизнь</li>
                           <li>Блок ответы на вопросы</li>
                         </ul>
                       </div>
                       <div class="moduls__item-lesson-info">
-                        <p>Дата: 28 ноября</p>
-                        <p>День: Вторник</p>
-                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 2</div>
-                    <div class="moduls__item-lesson-content">
-                      <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 2)</p>
-                        <ul>
-                          <li>Детально разберем ресурс цифр: 4, 13, 22, 5, 14, 23, 6, 15, 24</li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
-                          </li>
-                          <li>Блок ответы на вопросы</li>
-                        </ul>
-                      </div>
-                      <div class="moduls__item-lesson-info">
-                        <p>Дата: 30 ноября</p>
-                        <p>День: Четверг</p>
-                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 3</div>
-                    <div class="moduls__item-lesson-content">
-                      <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 3)</p>
-                        <ul>
-                          <li>Детально разберем ресурс цифр: 7, 16, 25, 8, 17, 26, 9, 18, 27</li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
-                          </li>
-                          <li>Блок ответы на вопросы</li>
-                        </ul>
-                      </div>
-                      <div class="moduls__item-lesson-info">
-                        <p>Дата: 04 декабря</p>
+                        <p>Дата: 11 декабря</p>
                         <p>День: Понедельник</p>
                         <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
+                        <p>Продолжительность урока: 60 минут</p>
                       </div>
                     </div>
                   </div>
                   <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 4</div>
+                    <div class="moduls__item-lesson-title">Урок 6</div>
+                    <div class="moduls__item-lesson-content">
+                      <div class="moduls__item-lesson-desc">
+                        <p>Расшифровка твоего личного ритма на месяц и на день</p>
+                        <ul>
+                          <li>Детальный разбор ритмов по месяцам</li>
+                          <li>Детальный разбор ритмов по дням</li>
+                          <li>Как применять полученную информацию на практике</li>
+                          <li>Блок ответы на вопросы</li>
+                        </ul>
+                      </div>
+                      <div class="moduls__item-lesson-info">
+                        <p>Дата: 13 декабря</p>
+                        <p>День: Среда</p>
+                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
+                        <p>Продолжительность урока: 60 минут</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="moduls__item-lesson">
+                    <div class="moduls__item-lesson-title">Урок 7</div>
+                    <div class="moduls__item-lesson-content">
+                      <div class="moduls__item-lesson-desc">
+                        <p>Моя Самооценка, Пирамида личности</p>
+                        <ul>
+                          <li>Поговорим об окружении</li>
+                          <li>Навыках и талантах</li>
+                          <li>Скрытых и явных мотивах</li>
+                          <li>Убеждениях и выгодах</li>
+                          <li>Блок ответы на вопросы</li>
+                        </ul>
+                      </div>
+                      <div class="moduls__item-lesson-info">
+                        <p>Дата: 18 декабря</p>
+                        <p>День: Понедельник</p>
+                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
+                        <p>Продолжительность урока: 60 минут</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="moduls__item-lesson">
+                    <div class="moduls__item-lesson-title">Урок 8</div>
                     <div class="moduls__item-lesson-content">
                       <div class="moduls__item-lesson-desc">
                         <p>Практика и ответы на вопросы</p>
                         <ul>
                           <li>Вы получите ответы на свои вопросы</li>
-                          <li>Мы попрактикуемся делать с вами разборы</li>
+                          <li>
+                            Мы попрактикуемся делать с вами разборы ритмов по годам, месяцам и дням
+                          </li>
                         </ul>
                       </div>
                       <div class="moduls__item-lesson-info">
-                        <p>Дата: 06 декабря</p>
+                        <p>Дата: 20 декабря</p>
                         <p>День: Среда</p>
                         <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
                         <p>Продолжительность урока: 60 - 120 минут</p>
@@ -460,16 +518,18 @@
                   <div class="moduls__item-result-title --gradient">В результате:</div>
                   <div class="moduls__item-result-content">
                     <ul class="moduls__item-result-list">
-                      <li>Вы будете “считывать” каждого человека</li>
-                      <li>Понимать его сильные и слабые стороны</li>
-                      <li>Таланты и возможности</li>
+                      <li>у вас будет “дорожная карта успеха” для каждого человека</li>
+                      <li>
+                        вы научитесь расшифровывать и использовать числовые ритмы для навигации в
+                        различных этапах жизни
+                      </li>
                     </ul>
                     <ul class="moduls__item-result-list">
+                      <li>по годам, месяцам и дням</li>
                       <li>
-                        У вас будет инструмент и инструкция, как это использовать для успешной
-                        самореализации
+                        у вас будет инструмент для анализа и понимания того, как каждый год и месяц
+                        влияет на вас и какие задачи и возможности он приносит
                       </li>
-                      <li>Для принятия важных решений в бизнесе и жизни</li>
                     </ul>
                   </div>
                 </div>
@@ -478,108 +538,64 @@
             <div class="moduls__item">
               <div class="moduls__item-header">
                 <div class="moduls__item-header-content">
-                  <div class="moduls__item-header-suptitle">Модуль 1</div>
-                  <div class="moduls__item-header-title --gradient">Взлом даты рождения</div>
+                  <div class="moduls__item-header-suptitle">Модуль 3</div>
+                  <div class="moduls__item-header-title --gradient">Я профессионал</div>
                 </div>
                 <div class="moduls__item-header-btn"></div>
               </div>
               <div class="moduls__item-body">
                 <div class="moduls__item-body-text">
                   <p>
-                    В первом модуле, мы сфокусируемся на анализе первой цифры в вашей дате рождения.
-                    Это будет ваш ключ к пониманию собственных сильных сторон, талантов и
-                    возможностей. Мы разберем, как использовать это знание для успешной
-                    самореализации и принятия важных решений в бизнесе и в жизни.
+                    В третьем модуле вы расшифруете ключевой аспект вашей даты рождения, который
+                    является определяющим в вашем успехе и самопонимании себя.
                   </p>
                   <p>
-                    Этот модуль состоять из трех уроков, каждый из которых погружает вас в глубокий
-                    анализ вашего первого числа и его влияния на вашу жизнь.
+                    Этот модуль поможет вам выявить и понять вашу уникальную миссию, превращая ее в
+                    мощный инструмент для достижения финансового роста и личного успеха
                   </p>
                 </div>
                 <div class="moduls__item-lessons">
                   <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 1</div>
+                    <div class="moduls__item-lesson-title">Урок 9</div>
                     <div class="moduls__item-lesson-content">
                       <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 1)</p>
+                        <p>Путь Предназначения, мой ключ к успеху моя миссия (Часть 1)</p>
                         <ul>
+                          <li>Коридор в Нумерологии и как его считать</li>
+                          <li>Как определить свой вектор в профессиональной деятельности</li>
                           <li>
-                            Детально разберем ресурс цифр: 1, 10, 19, 28, 2, 11, 20, 3, 12, 30
-                          </li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
+                            Разберем через какую сферу деятельность будет лучшая самореализация
                           </li>
                           <li>Блок ответы на вопросы</li>
                         </ul>
                       </div>
                       <div class="moduls__item-lesson-info">
-                        <p>Дата: 28 ноября</p>
-                        <p>День: Вторник</p>
-                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 2</div>
-                    <div class="moduls__item-lesson-content">
-                      <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 2)</p>
-                        <ul>
-                          <li>Детально разберем ресурс цифр: 4, 13, 22, 5, 14, 23, 6, 15, 24</li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
-                          </li>
-                          <li>Блок ответы на вопросы</li>
-                        </ul>
-                      </div>
-                      <div class="moduls__item-lesson-info">
-                        <p>Дата: 30 ноября</p>
-                        <p>День: Четверг</p>
-                        <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 3</div>
-                    <div class="moduls__item-lesson-content">
-                      <div class="moduls__item-lesson-desc">
-                        <p>Расшифровка дня рождения (Часть 3)</p>
-                        <ul>
-                          <li>Детально разберем ресурс цифр: 7, 16, 25, 8, 17, 26, 9, 18, 27</li>
-                          <li>
-                            Подробно рассмотрим, что необходимо для реализации потенциала каждого
-                            числа
-                          </li>
-                          <li>Блок ответы на вопросы</li>
-                        </ul>
-                      </div>
-                      <div class="moduls__item-lesson-info">
-                        <p>Дата: 04 декабря</p>
+                        <p>Дата: 25 декабря</p>
                         <p>День: Понедельник</p>
                         <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 80 минут</p>
+                        <p>Продолжительность урока: 90 минут</p>
                       </div>
                     </div>
                   </div>
                   <div class="moduls__item-lesson">
-                    <div class="moduls__item-lesson-title">Урок 4</div>
+                    <div class="moduls__item-lesson-title">Урок 10</div>
                     <div class="moduls__item-lesson-content">
                       <div class="moduls__item-lesson-desc">
-                        <p>Практика и ответы на вопросы</p>
+                        <p>Путь Предназначения, мой ключ к успеху моя миссия (Часть 2)</p>
                         <ul>
-                          <li>Вы получите ответы на свои вопросы</li>
-                          <li>Мы попрактикуемся делать с вами разборы</li>
+                          <li>Коридор в Нумерологии и как его считать</li>
+                          <li>Как определить свой вектор в профессиональной деятельности</li>
+                          <li>
+                            Разберем через какую сферу деятельность будет лучшая самореализация
+                          </li>
+                          <li>Блок ответы на вопросы</li>
                         </ul>
                       </div>
                       <div class="moduls__item-lesson-info">
-                        <p>Дата: 06 декабря</p>
+                        <p>Дата: 27 декабря</p>
                         <p>День: Среда</p>
                         <p>Время: 17:00 Киев | 18:00 Стамбул мск</p>
-                        <p>Продолжительность урока: 60 - 120 минут</p>
+                        <p>Продолжительность урока: 90 минут</p>
                       </div>
                     </div>
                   </div>
@@ -588,16 +604,16 @@
                   <div class="moduls__item-result-title --gradient">В результате:</div>
                   <div class="moduls__item-result-content">
                     <ul class="moduls__item-result-list">
-                      <li>Вы будете “считывать” каждого человека</li>
-                      <li>Понимать его сильные и слабые стороны</li>
-                      <li>Таланты и возможности</li>
+                      <li>
+                        Вы расшифруете ключевой аспект вашей даты рождения, который является
+                        определяющим в вашем успехе и самопонимании себя.
+                      </li>
                     </ul>
                     <ul class="moduls__item-result-list">
                       <li>
-                        У вас будет инструмент и инструкция, как это использовать для успешной
-                        самореализации
+                        Выявите и поймете вашу уникальную миссию, превратите ее в мощный инструмент
+                        для достижения финансового роста и личного успеха
                       </li>
-                      <li>Для принятия важных решений в бизнесе и жизни</li>
                     </ul>
                   </div>
                 </div>
@@ -609,6 +625,7 @@
     </section>
 
     <section class="results">
+      <div class="results__decor"></div>
       <div class="container">
         <div class="results__wrapper">
           <div class="results__title title --gradient">В результате программы вы:</div>
@@ -643,7 +660,7 @@
               </div>
             </div>
           </div>
-          <button class="results__btn btn">Принять Участие</button>
+          <button class="results__btn btn" data-scroll-smooth="packages">Принять Участие</button>
         </div>
       </div>
     </section>
@@ -689,9 +706,12 @@
     </section>
 
     <section class="packages">
+      <div class="packages__decor"></div>
       <div class="container">
         <div class="packages__wrapper">
-          <div class="packages__title title --gradient">До повышения цен осталось:</div>
+          <div class="packages__title title --gradient" id="packages">
+            До повышения цен осталось:
+          </div>
           <div class="packages__timer timer">
             <div class="timer__items">
               <div class="timer__item">
@@ -748,7 +768,9 @@
                 <div class="packages__item-info-supsum"><span>750 $$</span> / Обычная цена</div>
                 <div class="packages__item-info-sum"><span>220$</span> / Специальная цена</div>
                 <div class="packages__item-info-subsum"><span>149$</span> / Цена сейчас</div>
-                <a href="" target="_blank" class="packages__item-info-btn btn">Выбираю Эконом</a>
+                <button class="packages__item-info-btn btn modal__btn" data-modal-src="economy">
+                  Выбираю Эконом
+                </button>
               </div>
             </div>
             <div class="packages__item">
@@ -778,7 +800,9 @@
                 <div class="packages__item-info-supsum"><span>1500 $$$</span> / Обычная цена</div>
                 <div class="packages__item-info-sum"><span>440$</span> / Специальная цена</div>
                 <div class="packages__item-info-subsum"><span>299$</span> / Цена сейчас</div>
-                <a href="" target="_blank" class="packages__item-info-btn btn">Выбираю Премиум</a>
+                <button class="packages__item-info-btn btn modal__btn" data-modal-src="business">
+                  Выбираю Премиум
+                </button>
               </div>
             </div>
             <div class="packages__item">
@@ -808,7 +832,9 @@
                 <div class="packages__item-info-supsum"><span>3000 $$$ </span> / Обычная цена</div>
                 <div class="packages__item-info-sum"><span>1500$</span> / Специальная цена</div>
                 <div class="packages__item-info-subsum"><span>1500$</span> / Цена сейчас</div>
-                <a href="" target="_blank" class="packages__item-info-btn btn">Выбираю VIP</a>
+                <button class="packages__item-info-btn btn modal__btn" data-modal-src="first">
+                  Выбираю VIP
+                </button>
               </div>
             </div>
           </div>
@@ -817,6 +843,7 @@
     </section>
 
     <section class="bonus">
+      <div class="bonus__decor"></div>
       <div class="container">
         <div class="bonus__wrapper">
           <div class="bonus__imgs">
@@ -838,12 +865,13 @@
             </div>
           </div>
           <div class="bonus__subtext">* Предложение действительно только до повышения цены</div>
-          <button class="bonus__btn btn">Принять Участие</button>
+          <button class="bonus__btn btn" data-scroll-smooth="packages">Принять Участие</button>
         </div>
       </div>
     </section>
 
     <section class="who">
+      <div class="who__decor"></div>
       <div class="container">
         <div class="who__wrapper">
           <div class="who__items">
@@ -901,7 +929,201 @@
       </div>
     </section>
 
+    <section class="slider">
+      <div class="slider__decor"></div>
+      <div class="slider__wrapper">
+        <div class="slider__title title --gradient">Несколько результатов учениц Дарьи:</div>
+        <div class="slider__items swiper">
+          <div class="swiper-wrapper">
+            <div class="slider__item swiper-slide">
+              <div class="slider__item-content">
+                <div class="slider__item-header">
+                  <div class="slider__item-title --gradient">Тищенко Виктория</div>
+                  <div class="slider__item-social">
+                    <div class="slider__item-social-img">
+                      <img src="./img/icons/instagram.svg" alt="" />
+                    </div>
+                    <p>@vt_happy_life</p>
+                  </div>
+                </div>
+                <div class="slider__item-points">
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка А:</div>
+                    <div class="slider__item-point-text">
+                      Потеря работы, дохода, состояние депрессии, потеря веры в себя.
+                    </div>
+                  </div>
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка Б:</div>
+                    <div class="slider__item-point-text">
+                      Сегодня, закончив обучение у Дарьи, я уверенно применяю нумерологию в своей
+                      жизни. Разглядывая цифры, я вижу причинно-следственные связи, понимаю свои
+                      ритмы и принимаю решения с уверенностью.
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__item-desc">
+                  <p>
+                    1. Развитие уверенности: Нумерология помогла мне чувствовать себя более
+                    уверенно, понимая свои сильные стороны и принимая свои особенности.
+                  </p>
+                  <p>
+                    2.Лучшее понимание окружающих: нумерология стала ключом к глубокому пониманию
+                    других людей, что позволило быть более дипломатичной и легко налаживать контакты
+                    с другими
+                  </p>
+                  <p>3. Вышла с депрессии</p>
+                  <p>4. Приобрела новую профессию</p>
+                </div>
+              </div>
+              <div class="slider__item-img"><img src="./img/slider/items/1.png" alt="" /></div>
+            </div>
+            <div class="slider__item swiper-slide">
+              <div class="slider__item-content">
+                <div class="slider__item-header">
+                  <div class="slider__item-title --gradient">Наталия Бойко</div>
+                  <div class="slider__item-social">
+                    <div class="slider__item-social-img">
+                      <img src="./img/icons/instagram.svg" alt="" />
+                    </div>
+                    <p>@natalyboyko</p>
+                  </div>
+                </div>
+                <div class="slider__item-points">
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка А:</div>
+                    <div class="slider__item-point-text">
+                      Адвокат. Столкнулась с точкой А, где депрессия, потеря отца и отсутствие
+                      мотивации определяли ее состояние. Это был период опущенных рук и неверия в
+                      дальнейшие шаги.
+                    </div>
+                  </div>
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка Б:</div>
+                    <div class="slider__item-point-text">
+                      Сегодня, благодаря изучению нумерологии, Наталья не только преодолела
+                      депрессию, но и существенно улучшила свою жизнь.
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__item-desc">
+                  <p>
+                    Она увеличила доходы, легко находит общий язык с коллегами и клиентами, а также
+                    эффективно использует ритмы года для успешных бизнес-решений.
+                  </p>
+                  <p>
+                    Новое дыхание, позитивное настроение и полное принятие сопровождают ее в
+                    повседневной жизни.
+                  </p>
+                  <p>Доходы значительно увеличились</p>
+                </div>
+              </div>
+              <div class="slider__item-img"><img src="./img/slider/items/2.png" alt="" /></div>
+            </div>
+            <div class="slider__item swiper-slide">
+              <div class="slider__item-content">
+                <div class="slider__item-header">
+                  <div class="slider__item-title --gradient">Катя Михно</div>
+                  <div class="slider__item-social">
+                    <div class="slider__item-social-img">
+                      <img src="./img/icons/instagram.svg" alt="" />
+                    </div>
+                    <p>@katya.mikhno</p>
+                  </div>
+                </div>
+                <div class="slider__item-points">
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка А:</div>
+                    <div class="slider__item-point-text">
+                      Организатор мероприятий. Страх публичных выступлений Изначально нумерологию не
+                      признавала.
+                    </div>
+                  </div>
+                  <div class="slider__item-point">
+                    <div class="slider__item-point-title">Точка Б:</div>
+                    <div class="slider__item-point-text">
+                      В итоге нумерология ей подсветила важные моменты и она вышла на новый уровень.
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__item-desc">
+                  <p>Избавилась от страха публичных выступлений и стала спикером.</p>
+                  <p>
+                    С помощью нумерологии открыла в себе новую грань и значительно увеличилась в
+                    доходах.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item-img"><img src="./img/slider/items/3.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="slider-arrow slider-arrow-l">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="27"
+              viewBox="0 0 16 27"
+              fill="none"
+            >
+              <path
+                d="M14.5 1L2 13.5L14.5 26"
+                stroke="url(#paint0_linear_1_660)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_660"
+                  x1="2"
+                  y1="13.5"
+                  x2="14.547"
+                  y2="13.6021"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#E2BA78" />
+                  <stop offset="0.486276" stop-color="#F2D7AC" />
+                  <stop offset="1" stop-color="#E0B875" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="slider-arrow slider-arrow-r">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="27"
+              viewBox="0 0 16 27"
+              fill="none"
+            >
+              <path
+                d="M1.5 26L14 13.5L1.5 0.999999"
+                stroke="url(#paint0_linear_1_661)"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_661"
+                  x1="14"
+                  y1="13.5"
+                  x2="1.45303"
+                  y2="13.3979"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#E2BA78" />
+                  <stop offset="0.486276" stop-color="#F2D7AC" />
+                  <stop offset="1" stop-color="#E0B875" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
+      <div class="footer__decor"></div>
+      <div class="footer__decor-2"></div>
       <div class="container">
         <div class="footer__wrapper">
           <div class="footer__title-block">
@@ -921,13 +1143,13 @@
               </div>
               <p>@artemnesterenko_support</p></a
             >
-            <a href="tel:+380936892288" target="_blank" class="footer__social-item"
+            <a href="tel:+380936892288" class="footer__social-item"
               ><div class="footer__social-item-icon">
                 <img src="./img/icons/phone.svg" alt="" />
               </div>
               <p>+380936892288</p></a
             >
-            <a href="mailto:support@artemnesterenko.com" target="_blank" class="footer__social-item"
+            <a href="mailto:support@artemnesterenko.com" class="footer__social-item"
               ><div class="footer__social-item-icon"><img src="./img/icons/mail.svg" alt="" /></div>
               <p>support@artemnesterenko.com</p></a
             >
@@ -951,7 +1173,7 @@
                 Освойте передовой инструмент успешных людей, который помогает делать сверх
                 результаты без сверхусилий в жизни и в бизнесе
               </div>
-              <button class="footer__btn btn">Принять Участие</button>
+              <button class="footer__btn btn" data-scroll-smooth="packages">Принять Участие</button>
             </div>
             <div class="footer__img"><img src="./img/footer/img.png" alt="" /></div>
           </div>
@@ -959,6 +1181,160 @@
       </div>
     </footer>
 
+    <div class="modal__wrapper" data-modal-window="economy">
+      <div class="modal__content">
+        <div class="modal__btn-close">
+          <button class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <form class="form" action="" method="post">
+          <div class="form__title title title--min">ОСТАВЬТЕ СВОИ ДАННЫЕ В ФОРМЕ</div>
+          <div class="form__text">чтобы получить место по лучшей цене</div>
+          <div class="form__inputs">
+            <div class="form__input-block">
+              <input
+                type="text"
+                required
+                placeholder="Введите ваше имя"
+                name="name"
+                value=""
+                class="form__input val val-name"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="email"
+                required
+                placeholder="Введите ваш email"
+                name="email"
+                value=""
+                class="form__input val val-email"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="number"
+                required
+                placeholder="Телефон (Международный) "
+                name="phone"
+                value=""
+                class="form__input"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="form__btn"><button class="btn">Принять участие</button></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal__wrapper" data-modal-window="business">
+      <div class="modal__content">
+        <div class="modal__btn-close">
+          <button class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <form class="form" action="" method="post">
+          <div class="form__title title title--min">ОСТАВЬТЕ СВОИ ДАННЫЕ В ФОРМЕ</div>
+          <div class="form__text">чтобы получить место по лучшей цене</div>
+          <div class="form__inputs">
+            <div class="form__input-block">
+              <input
+                type="text"
+                required
+                placeholder="Введите ваше имя"
+                name="name"
+                value=""
+                class="form__input val val-name"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="email"
+                required
+                placeholder="Введите ваш email"
+                name="email"
+                value=""
+                class="form__input val val-email"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="number"
+                required
+                placeholder="Телефон (Международный) "
+                name="phone"
+                value=""
+                class="form__input"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="form__btn"><button class="btn">Принять участие</button></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal__wrapper" data-modal-window="first">
+      <div class="modal__content">
+        <div class="modal__btn-close">
+          <button class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <form class="form" action="" method="post">
+          <div class="form__title title title--min">ОСТАВЬТЕ СВОИ ДАННЫЕ В ФОРМЕ</div>
+          <div class="form__text">чтобы получить место по лучшей цене</div>
+          <div class="form__inputs">
+            <div class="form__input-block">
+              <input
+                type="text"
+                required
+                placeholder="Введите ваше имя"
+                name="name"
+                value=""
+                class="form__input val val-name"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="email"
+                required
+                placeholder="Введите ваш email"
+                name="email"
+                value=""
+                class="form__input val val-email"
+              />
+            </div>
+            <div class="form__input-block">
+              <input
+                type="number"
+                required
+                placeholder="Телефон (Международный) "
+                name="phone"
+                value=""
+                class="form__input"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="form__btn"><button class="btn">Принять участие</button></div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/swiper.js"></script>
     <script src="./js/resize.js"></script>
     <script src="./js/main.js"></script>
   </body>

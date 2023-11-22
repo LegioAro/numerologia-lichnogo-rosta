@@ -2,10 +2,25 @@
   position: relative;
   z-index: 2;
   margin-bottom: 243px;
+
+  &__decor {
+    position: absolute;
+    right: 0;
+    top: -323px;
+    width: 1764px;
+    height: 1922px;
+    background-image: url(../../img/video/dec.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    pointer-events: none;
+  }
   &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 3;
   }
 
   &__content {

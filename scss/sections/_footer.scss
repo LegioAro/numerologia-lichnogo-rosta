@@ -1,9 +1,42 @@
 .footer {
+  position: relative;
+  overflow: hidden;
+  &__decor {
+    position: absolute;
+    right: 50%;
+    top: 0px;
+    width: 100%;
+    max-width: 1920px;
+    height: 1147px;
+    transform: translateX(50%);
+    background-image: url(../../img/footer/dec.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    z-index: 1;
+  }
+  &__decor-2 {
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    width: 100%;
+    max-width: 1920px;
+    height: 683px;
+    background-image: url(../../img/footer/dec2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+    z-index: 3;
+  }
   &__wrapper {
+    position: relative;
   }
 
   &__title-block {
     position: relative;
+    z-index: 3;
     width: 100%;
     max-width: 600px;
     margin: 0 auto 52px;
@@ -61,6 +94,8 @@
     justify-content: center;
     margin-bottom: 80px;
     margin: -19px;
+    position: relative;
+    z-index: 3;
   }
 
   &__social-item {
@@ -96,7 +131,7 @@
 
   &__content {
     position: relative;
-    z-index: 1;
+    z-index: 4;
     padding-bottom: 80px;
   }
 
@@ -138,6 +173,8 @@
     max-width: 550px;
     margin-left: -150px;
     display: flex;
+    position: relative;
+    z-index: 1;
   }
 
   .header__date {
@@ -189,6 +226,9 @@
     }
     &__social-items {
       flex-wrap: wrap;
+    }
+    &__decor-2 {
+      display: none;
     }
   }
 }

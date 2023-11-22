@@ -1,10 +1,27 @@
 .results {
   margin-bottom: 378px;
+  position: relative;
+  &__decor {
+    position: absolute;
+    right: 50%;
+    top: -43px;
+    width: 100%;
+    max-width: 1920px;
+    height: 960px;
+    transform: translateX(50%);
+    background-image: url(../../img/results/dec.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+  }
   &__wrapper {
     border-radius: 20px;
     border: 1px solid rgba(#e2ba78, 0.2);
     background-color: rgba(18, 16, 24, 0.8);
     padding: 0 45px;
+    position: relative;
+    z-index: 1;
   }
 
   &__title {
